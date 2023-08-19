@@ -54,13 +54,13 @@ const GigDetail = () => {
   ];
 
   
-    const handleEmail = () => {
-      window.location.href = `mailto:${seller.email}`;
-    };
+    // const handleEmail = () => {
+    //   window.location.href = `mailto:${seller.email}`;
+    // };
   
-    const handlePhone = () => {
-      window.location.href = `tel:${seller.phone}`;
-    };
+    // const handlePhone = () => {
+    //   window.location.href = `tel:${seller.phone}`;
+    // };
 
 
   return (
