@@ -13,9 +13,10 @@ import newRequest from "../../utils/newRequest.js";
 
 const Admin = () => {
   const [data,setData] = useState([]);
+  
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/users/getall",{method:'GET'})
+    newRequest.get('/users/getall')
     .then(response => {
       return response.json()
     })
